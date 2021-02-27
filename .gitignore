@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 /uploads
-/src/database/database.sqlite
+/src/database/*.sqlite
 
 # testing
 /coverage
