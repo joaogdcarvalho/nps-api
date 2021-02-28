@@ -16,7 +16,7 @@ class AnswerController {
 
     if(!surveyUser) {
       return response.status(400).json({
-        error: "Survey User doesn't exists!"
+        error: "Survey User doesn't exists!",
       });
     }
 
