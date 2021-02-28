@@ -10,24 +10,24 @@ export class CreateSurveys1614271171516 implements MigrationInterface {
                     {
                         name: "id",
                         type: "uuid",
-                        isPrimary: true
+                        isPrimary: true,
                     },
                     {
                         name: "title",
-                        type: "varchar"
+                        type: "varchar",
                     },
                     {
                         name: "description",
-                        type: "varchar"
+                        type: "varchar",
                     },
                     {
                         name: "created_at",
                         type: "timestamp",
-                        default: "now()"
-                    }
-                ]
+                        default: "now()",
+                    },
+                ],
             })
-        )
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
